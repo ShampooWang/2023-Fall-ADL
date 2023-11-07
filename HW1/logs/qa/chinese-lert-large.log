@@ -1,0 +1,162 @@
+10/19/2023 00:32:40 - INFO - __main__ - Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+Mixed precision type: no
+
+10/19/2023 00:32:41 - WARNING - datasets.builder - Using custom data configuration default-7935e9127aa4d319
+10/19/2023 00:32:41 - WARNING - datasets.builder - Found cached dataset json (/home/jgtf0322/.cache/huggingface/datasets/json/default-7935e9127aa4d319/0.0.0/e6070c77f18f01a5ad4551a8b7edfba20b8438b7cad4d94e6ad9378022ce4aab)
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 829.00it/s]
+loading configuration file config.json from cache at /home/jgtf0322/.cache/huggingface/hub/models--hfl--chinese-lert-large/snapshots/99bd22cfbe4fa8b526f235724e1d5c2a922e7523/config.json
+Model config BertConfig {
+  "_name_or_path": "hfl/chinese-lert-large",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pad_token_id": 0,
+  "pooler_fc_size": 1024,
+  "pooler_num_attention_heads": 16,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.22.2",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 21128
+}
+
+loading configuration file config.json from cache at /home/jgtf0322/.cache/huggingface/hub/models--hfl--chinese-lert-large/snapshots/99bd22cfbe4fa8b526f235724e1d5c2a922e7523/config.json
+Model config BertConfig {
+  "_name_or_path": "hfl/chinese-lert-large",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pad_token_id": 0,
+  "pooler_fc_size": 1024,
+  "pooler_num_attention_heads": 16,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.22.2",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 21128
+}
+
+loading file vocab.txt from cache at /home/jgtf0322/.cache/huggingface/hub/models--hfl--chinese-lert-large/snapshots/99bd22cfbe4fa8b526f235724e1d5c2a922e7523/vocab.txt
+loading file tokenizer.json from cache at /home/jgtf0322/.cache/huggingface/hub/models--hfl--chinese-lert-large/snapshots/99bd22cfbe4fa8b526f235724e1d5c2a922e7523/tokenizer.json
+loading file added_tokens.json from cache at /home/jgtf0322/.cache/huggingface/hub/models--hfl--chinese-lert-large/snapshots/99bd22cfbe4fa8b526f235724e1d5c2a922e7523/added_tokens.json
+loading file special_tokens_map.json from cache at /home/jgtf0322/.cache/huggingface/hub/models--hfl--chinese-lert-large/snapshots/99bd22cfbe4fa8b526f235724e1d5c2a922e7523/special_tokens_map.json
+loading file tokenizer_config.json from cache at /home/jgtf0322/.cache/huggingface/hub/models--hfl--chinese-lert-large/snapshots/99bd22cfbe4fa8b526f235724e1d5c2a922e7523/tokenizer_config.json
+loading configuration file config.json from cache at /home/jgtf0322/.cache/huggingface/hub/models--hfl--chinese-lert-large/snapshots/99bd22cfbe4fa8b526f235724e1d5c2a922e7523/config.json
+Model config BertConfig {
+  "_name_or_path": "hfl/chinese-lert-large",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "pad_token_id": 0,
+  "pooler_fc_size": 1024,
+  "pooler_num_attention_heads": 16,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.22.2",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 21128
+}
+
+loading weights file pytorch_model.bin from cache at /home/jgtf0322/.cache/huggingface/hub/models--hfl--chinese-lert-large/snapshots/99bd22cfbe4fa8b526f235724e1d5c2a922e7523/pytorch_model.bin
+Some weights of the model checkpoint at hfl/chinese-lert-large were not used when initializing BertForQuestionAnswering: ['cls.predictions.decoder.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForQuestionAnswering were not initialized from the model checkpoint at hfl/chinese-lert-large and are newly initialized: ['qa_outputs.bias', 'qa_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Running tokenizer on train dataset:   0%|          | 0/22 [00:00<?, ?ba/s]Running tokenizer on train dataset:   5%|▍         | 1/22 [00:00<00:11,  1.79ba/s]Running tokenizer on train dataset:   9%|▉         | 2/22 [00:01<00:11,  1.68ba/s]Running tokenizer on train dataset:  14%|█▎        | 3/22 [00:01<00:10,  1.77ba/s]Running tokenizer on train dataset:  18%|█▊        | 4/22 [00:02<00:09,  1.80ba/s]Running tokenizer on train dataset:  23%|██▎       | 5/22 [00:02<00:09,  1.83ba/s]Running tokenizer on train dataset:  27%|██▋       | 6/22 [00:03<00:08,  1.85ba/s]Running tokenizer on train dataset:  32%|███▏      | 7/22 [00:03<00:08,  1.76ba/s]Running tokenizer on train dataset:  36%|███▋      | 8/22 [00:04<00:07,  1.80ba/s]Running tokenizer on train dataset:  41%|████      | 9/22 [00:04<00:07,  1.83ba/s]Running tokenizer on train dataset:  45%|████▌     | 10/22 [00:05<00:06,  1.83ba/s]Running tokenizer on train dataset:  50%|█████     | 11/22 [00:06<00:06,  1.76ba/s]Running tokenizer on train dataset:  55%|█████▍    | 12/22 [00:06<00:05,  1.74ba/s]Running tokenizer on train dataset:  59%|█████▉    | 13/22 [00:07<00:05,  1.77ba/s]Running tokenizer on train dataset:  64%|██████▎   | 14/22 [00:07<00:04,  1.81ba/s]Running tokenizer on train dataset:  68%|██████▊   | 15/22 [00:08<00:03,  1.84ba/s]Running tokenizer on train dataset:  73%|███████▎  | 16/22 [00:08<00:03,  1.76ba/s]Running tokenizer on train dataset:  77%|███████▋  | 17/22 [00:09<00:02,  1.81ba/s]Running tokenizer on train dataset:  82%|████████▏ | 18/22 [00:09<00:02,  1.84ba/s]Running tokenizer on train dataset:  86%|████████▋ | 19/22 [00:10<00:01,  1.86ba/s]Running tokenizer on train dataset:  91%|█████████ | 20/22 [00:11<00:01,  1.86ba/s]Running tokenizer on train dataset:  95%|█████████▌| 21/22 [00:11<00:00,  1.76ba/s]Running tokenizer on train dataset: 100%|██████████| 22/22 [00:12<00:00,  1.94ba/s]Running tokenizer on train dataset: 100%|██████████| 22/22 [00:12<00:00,  1.82ba/s]
+Running tokenizer on validation dataset:   0%|          | 0/4 [00:00<?, ?ba/s]Running tokenizer on validation dataset:  25%|██▌       | 1/4 [00:00<00:02,  1.35ba/s]Running tokenizer on validation dataset:  50%|█████     | 2/4 [00:01<00:01,  1.29ba/s]Running tokenizer on validation dataset:  75%|███████▌  | 3/4 [00:02<00:00,  1.18ba/s]Running tokenizer on validation dataset: 100%|██████████| 4/4 [00:02<00:00,  1.60ba/s]
+10/19/2023 00:33:02 - INFO - __main__ - Sample 23261 of the training set: {'input_ids': [101, 1377, 809, 1469, 1071, 800, 4638, 4381, 2157, 671, 6629, 6868, 6121, 6879, 2783, 4638, 3346, 6205, 3221, 5964, 4507, 784, 7938, 3175, 2466, 6868, 6121, 136, 102, 4507, 3193, 3309, 1001, 5186, 4638, 1606, 3582, 6879, 2783, 1728, 4158, 5206, 6662, 4638, 3249, 1350, 5445, 4028, 6365, 1139, 889, 4638, 6879, 2783, 1920, 2453, 1798, 8024, 6857, 671, 4934, 7546, 1798, 4638, 6879, 2783, 712, 6206, 3221, 5964, 4507, 2398, 1378, 889, 2990, 897, 671, 943, 1377, 809, 1469, 1071, 800, 4638, 4381, 2157, 671, 6629, 6868, 6121, 6283, 3621, 6879, 2783, 2772, 3221, 6868, 6121, 2205, 2782, 4638, 1057, 1366, 8024, 4633, 1057, 6879, 2783, 2527, 3298, 1044, 6868, 1057, 671, 943, 6879, 2783, 1920, 2453, 8024, 1086, 6981, 2205, 3149, 943, 4381, 2157, 6868, 1057, 2179, 7396, 6868, 6121, 6879, 2783, 4638, 1765, 1756, 2772, 4277, 3430, 511, 4412, 791, 6632, 889, 6632, 1914, 1606, 3582, 6879, 2783, 6963, 3298, 1217, 1057, 3634, 1216, 5543, 8024, 2772, 2828, 3634, 1216, 5543, 868, 4158, 6528, 6818, 6879, 2783, 712, 7768, 4638, 6956, 1146, 511, 6857, 7546, 6879, 2783, 1762, 3627, 5401, 1765, 1281, 4638, 6879, 2783, 704, 6733, 2382, 6210, 8024, 891, 2094, 3300, 3314, 3189, 722, 2782, 510, 686, 5145, 2370, 1751, 5143, 1154, 510, 7795, 4366, 4261, 7464, 5143, 1154, 5023, 5023, 6963, 1762, 3634, 7546, 6879, 2783, 722, 1154, 8024, 852, 2537, 3315, 6549, 677, 6341, 3221, 6851, 6882, 2398, 1378, 6868, 6121, 1394, 868, 2772, 2205, 2782, 4638, 1606, 3582, 6879, 2783, 511, 1728, 3634, 4707, 1914, 4381, 2157, 6299, 6291, 4158, 5543, 1917, 809, 2398, 1378, 4158, 1825, 4843, 6868, 6121, 5474, 5206, 2205, 2782, 4638, 6879, 2783, 3221, 5206, 6662, 6879, 2783, 8024, 6857, 3221, 671, 1920, 6299, 1281, 511, 1751, 1058, 5206, 1351, 2205, 5206, 6662, 6879, 2783, 1350, 1606, 3582, 6879, 2783, 2137, 5412, 4638, 6291, 6352, 6733, 3923, 8024, 3221, 2206, 5636, 3563, 5128, 1606, 3582, 5645, 5206, 6879, 1146, 4518, 4638, 7028, 6206, 1333, 1728, 511, 102], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'start_positions': 71, 'end_positions': 72}.
+10/19/2023 00:33:02 - INFO - __main__ - Sample 26672 of the training set: {'input_ids': [101, 1762, 1914, 3209, 2225, 1217, 6965, 3333, 6514, 4981, 1765, 1281, 4638, 782, 3696, 4158, 712, 6206, 3118, 2898, 5442, 4638, 7955, 4638, 7955, 3186, 4158, 862, 5682, 8043, 102, 1914, 3209, 2225, 1217, 2967, 1914, 7955, 3124, 3780, 8024, 1751, 1058, 1369, 3300, 6258, 1914, 3124, 3780, 1164, 4660, 1757, 7768, 8024, 6917, 3300, 4680, 1184, 1190, 5646, 6629, 4638, 7478, 3124, 2424, 1757, 7768, 5175, 5251, 511, 1914, 1751, 712, 6206, 676, 1920, 3124, 7955, 4158, 924, 2127, 3836, 4638, 1825, 4719, 4852, 3298, 3121, 7484, 7955, 8024, 974, 1403, 4852, 3298, 712, 5412, 4638, 1914, 3209, 2225, 1217, 7484, 1462, 7955, 8024, 1469, 4680, 1184, 1822, 3124, 4638, 1914, 3209, 2225, 1217, 6237, 3123, 7955, 511, 1825, 4719, 4852, 3298, 3121, 7484, 7955, 4638, 7955, 3186, 4158, 5148, 5682, 8024, 2792, 809, 1348, 4935, 868, 5148, 7955, 8024, 4158, 1184, 5244, 5186, 2349, 2861, 3419, 4273, 2792, 1201, 2456, 8024, 6965, 3333, 6514, 4981, 1765, 1281, 4638, 782, 3696, 4158, 1071, 7955, 3836, 712, 6206, 3118, 2898, 5442, 511, 1914, 3209, 2225, 1217, 7484, 1462, 7955, 4638, 7955, 3186, 4158, 4635, 5682, 8024, 1348, 4935, 868, 4635, 7955, 8024, 4158, 4534, 1159, 3837, 767, 1168, 1367, 2349, 4638, 1914, 3209, 2225, 1217, 782, 3176, 9459, 2399, 2792, 1201, 4989, 8024, 1184, 5244, 5186, 3449, 2361, 765, 4158, 6283, 7955, 3836, 807, 6134, 2595, 782, 4289, 511, 8213, 2399, 1751, 3298, 1920, 6908, 3229, 4635, 7955, 1469, 5148, 7955, 5474, 4673, 1066, 2897, 678, 8108, 2375, 1347, 6359, 1519, 5480, 855, 1469, 8460, 2375, 4707, 6359, 1519, 5480, 855, 511, 1914, 3209, 2225, 1217, 6237, 3123, 7955, 4638, 7955, 3186, 4158, 5166, 5682, 8024, 1348, 6158, 4935, 722, 4158, 5166, 7955, 8024, 4158, 4680, 1184, 4638, 1822, 3124, 7955, 8024, 4534, 1159, 4158, 1184, 5244, 5186, 5529, 2128, 2357, 2361, 3176, 9062, 2399, 1201, 4989, 511, 1071, 807, 6134, 2595, 782, 4289, 4158, 4412, 5244, 5186, 6527, 1298, 2548, 3172, 8024, 5166, 7955, 3176, 8166, 2399, 1751, 3298, 1920, 6908, 3229, 2897, 678, 1347, 6359, 7368, 5480, 855, 8211, 2375, 704, 4638, 8176, 2375, 855, 3613, 1469, 4707, 6359, 1519, 5480, 855, 9826, 2375, 704, 4638, 8503, 2375, 855, 3613, 8024, 5166, 7955, 2347, 2768, 4158, 1347, 4707, 1060, 7368, 4638, 712, 6206, 7955, 3836, 511, 102], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'start_positions': 131, 'end_positions': 132}.
+10/19/2023 00:33:02 - INFO - __main__ - Sample 25440 of the training set: {'input_ids': [101, 4360, 4989, 6725, 3295, 1762, 10132, 8161, 2399, 3229, 4634, 4495, 4638, 1525, 671, 943, 2782, 2514, 704, 2768, 1216, 1936, 6204, 5739, 6725, 136, 102, 5153, 4075, 6205, 3221, 2205, 5739, 1751, 4638, 3658, 3696, 5186, 3780, 5646, 6629, 5401, 1751, 7484, 1462, 4638, 1266, 5401, 1282, 676, 3658, 3696, 1765, 722, 671, 511, 10132, 8158, 2399, 128, 3299, 123, 3189, 8024, 5153, 4075, 6205, 3658, 3696, 1765, 6359, 3298, 6858, 6882, 749, 10132, 8158, 2399, 5153, 4075, 6205, 2336, 2740, 3791, 8024, 1060, 1921, 2527, 8024, 1266, 5401, 1282, 676, 943, 3658, 3696, 1765, 3633, 2466, 2146, 2357, 4360, 4989, 8024, 5401, 1751, 4360, 4989, 2782, 4261, 738, 3633, 2466, 7274, 1993, 8024, 4507, 3176, 3221, 6258, 1914, 7028, 6206, 2782, 2514, 4638, 4634, 4495, 1765, 8024, 5153, 4075, 6205, 2336, 912, 3300, 749, 519, 4360, 4989, 2782, 4261, 4638, 1282, 2099, 6662, 1366, 520, 4638, 1399, 4935, 511, 10132, 8158, 2399, 8110, 3299, 8132, 3189, 4638, 5428, 4633, 722, 2514, 704, 8024, 1605, 3780, 185, 5836, 4670, 7524, 4638, 6725, 7386, 3941, 6882, 2548, 2861, 4482, 3777, 8024, 2768, 1216, 982, 6204, 3760, 3300, 3976, 991, 4638, 5739, 6725, 511, 671, 943, 3215, 3309, 2527, 8024, 4360, 4989, 6725, 3176, 10132, 8161, 2399, 122, 3299, 124, 3189, 1762, 5018, 753, 3613, 5428, 4633, 722, 2514, 6833, 886, 5739, 6725, 977, 3632, 1184, 6868, 8024, 699, 1762, 3249, 3360, 3172, 7524, 722, 2514, 2768, 1216, 1936, 6204, 5739, 6725, 511, 7401, 2527, 8024, 5836, 4670, 7524, 2200, 6725, 5645, 5739, 6725, 1762, 2106, 5811, 3172, 722, 2514, 2205, 2782, 511, 852, 5178, 3362, 699, 679, 2768, 1216, 511, 9649, 8152, 2399, 1909, 1921, 8024, 1920, 7380, 3298, 6359, 1762, 3249, 3360, 3172, 7524, 1920, 2119, 4638, 10157, 8606, 8207, 11049, 5647, 6121, 5018, 671, 3613, 3298, 6359, 8024, 3634, 3613, 3298, 6359, 5632, 1240, 1765, 886, 3249, 3360, 3172, 7524, 2768, 4158, 5401, 1751, 4638, 5018, 671, 943, 7674, 6963, 511, 5153, 4075, 6205, 3221, 5018, 676, 943, 2821, 1114, 5401, 1751, 2740, 3791, 4638, 2336, 511, 9649, 8160, 2399, 8111, 3299, 8113, 3189, 8024, 5153, 4075, 6205, 809, 671, 7679, 4534, 1044, 722, 1248, 2821, 1114, 749, 3609, 1164, 3791, 3428, 511, 10132, 8158, 2399, 4638, 5153, 4075, 6205, 2336, 2740, 3791, 2956, 750, 3075, 3300, 6512, 4496, 4638, 519, 2792, 3300, 2233, 3696, 520, 2832, 4873, 3609, 8024, 1071, 704, 1259, 2886, 1957, 2595, 809, 1350, 7946, 782, 8024, 679, 6882, 2347, 2042, 2044, 1957, 1728, 4158, 679, 5543, 3075, 3300, 1759, 1765, 5445, 679, 5543, 2832, 4873, 511, 6857, 4934, 679, 3926, 3504, 4638, 2137, 5412, 2206, 5636, 749, 6258, 1914, 4261, 6359, 511, 2336, 6359, 3298, 3176, 8420, 8161, 2399, 6858, 6882, 749, 934, 3633, 3791, 3428, 8024, 3633, 2466, 6237, 7026, 2336, 2740, 3791, 4158, 1059, 6956, 4638, 4635, 782, 4511, 2595, 2798, 3300, 2832, 4873, 3609, 511, 102], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'start_positions': 230, 'end_positions': 235}.
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+wandb: Currently logged in as: shampoowang. Use `wandb login --relogin` to force relogin
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+wandb: Tracking run with wandb version 0.15.12
+wandb: Run data is saved locally in exp/question-answering/chinese-lert-large/wandb/run-20231019_003306-tpn9ri78
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run chinese-lert-large
+wandb: ⭐️ View project at https://wandb.ai/shampoowang/qa_no_trainer
+wandb: 🚀 View run at https://wandb.ai/shampoowang/qa_no_trainer/runs/tpn9ri78
+10/19/2023 00:33:13 - INFO - __main__ - ***** Running training *****
+10/19/2023 00:33:13 - INFO - __main__ -   Num examples = 27675
+10/19/2023 00:33:13 - INFO - __main__ -   Num Epochs = 5
+10/19/2023 00:33:13 - INFO - __main__ -   Instantaneous batch size per device = 6
+10/19/2023 00:33:13 - INFO - __main__ -   Total train batch size (w. parallel, distributed & accumulation) = 12
+10/19/2023 00:33:13 - INFO - __main__ -   Gradient Accumulation steps = 2
+10/19/2023 00:33:13 - INFO - __main__ -   Total optimization steps = 11535
+  0%|          | 0/11535 [00:00<?, ?it/s]You're using a BertTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+  0%|          | 1/11535 [00:01<4:56:09,  1.54s/it]  0%|          | 2/11535 [00:02<4:13:58,  1.32s/it]  0%|          | 3/11535 [00:03<4:00:33,  1.25s/it]  0%|          | 4/11535 [00:05<3:53:55,  1.22s/it]  0%|          | 5/11535 [00:06<3:42:34,  1.16s/it]  0%|          | 6/11535 [00:07<3:33:16,  1.11s/it]  0%|          | 7/11535 [00:08<3:36:59,  1.13s/it]  0%|          | 8/11535 [00:09<3:39:29,  1.14s/it]  0%|          | 9/11535 [00:10<3:40:55,  1.15s/it]  0%|          | 10/11535 [00:11<3:41:54,  1.16s/it]  0%|          | 11/11535 [00:12<3:33:00,  1.11s/it]  0%|          | 12/11535 [00:13<3:29:38,  1.09s/it]  0%|          | 13/11535 [00:14<3:31:45,  1.10s/it]  0%|          | 14/11535 [00:16<3:35:31,  1.12s/it]  0%|          | 15/11535 [00:17<3:38:06,  1.14s/it]  0%|          | 16/11535 [00:18<3:36:54,  1.13s/it]  0%|          | 17/11535 [00:19<3:39:09,  1.14s/it]  0%|          | 18/11535 [00:20<3:38:29,  1.14s/it]  0%|          | 19/11535 [00:21<3:40:00,  1.15s/it]  0%|          | 20/11535 [00:23<3:41:17,  1.15s/it]  0%|          | 21/11535 [00:24<3:42:01,  1.16s/it]  0%|          | 22/11535 [00:25<3:42:28,  1.16s/it]  0%|          | 23/11535 [00:26<3:42:56,  1.16s/it]  0%|          | 24/11535 [00:27<3:43:10,  1.16s/it]slurmstepd: error: *** JOB 530779 ON gn1101 CANCELLED AT 2023-10-19T00:33:42 ***

@@ -1,0 +1,12 @@
+# HW1
+HW1/dataset/
+HW1/exp/
+HW1/__pycache__/
+HW1/__MACOSX/
+
+# HW2
+HW2/dataset
+HW2/submit_ckpt
+HW2/logs
+HW2/exp
+HW2/wandb
