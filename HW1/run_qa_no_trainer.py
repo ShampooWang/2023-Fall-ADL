@@ -972,10 +972,10 @@ def main():
         if args.with_tracking:    
             accelerator.log(
                 {
-                    "loss_epoch": total_loss / len(train_dataloader),
-                    "exact_match_epoch": eval_metric["exact_match"]
+                    "loss": total_loss / len(train_dataloader),
+                    "exact_match": eval_metric["exact_match"]
                 },
-                step=epoch,
+                step=completed_steps,
             )
     
     if args.output_dir is not None:

@@ -778,7 +778,7 @@ def inference_relevant(args):
             del outputs, predictions
     
     del model
-    
+
     return Dataset.from_dict(predict_data)
 
 
