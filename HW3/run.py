@@ -141,5 +141,5 @@ if __name__ == "__main__":
     print(generation_confg)
     outputs = generate_outputs(model, tokenizer, args.test_data_path, generation_confg)
 
-    with open(args.output_path, "w") as f:
-        json.dump(outputs, f)
+    with open(args.output_path, "w", encoding='utf-8') as f:
+        json.dump(outputs, f, ensure_ascii=False, indent=4)

@@ -10,7 +10,7 @@ steps = list(range(0, len(perplexities) * 100, 100))
 
 # Plotting
 plt.plot(steps, perplexities, marker='o', linestyle='-', color='b')
-plt.title('Avg. perplexities on public test set')
+plt.title('Avg. perplexity on public test set')
 plt.xlabel('Steps')
 plt.ylabel('Perplexity')
 plt.savefig("ppl.png")
