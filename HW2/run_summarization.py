@@ -61,7 +61,6 @@ from transformers.trainer_utils import get_last_checkpoint
 from transformers.training_args import TrainingArguments
 from transformers.utils import check_min_version, is_offline_mode, send_example_telemetry, copy_func
 from transformers.utils.versions import require_version
-from tw_rouge import get_rouge
 
 # Will error if the minimal version of Transformers is not installed. Remove at your own risks.
 # check_min_version("4.36.0.dev0")
@@ -275,10 +274,10 @@ class DataTrainingArguments:
         default=False,
     )
     top_k: Optional[int] = field(
-        default=None,
+        default=50,
     )
     top_p: Optional[float] = field(
-        default=None,
+        default=1.0,
     )
     temperature: Optional[float] = field(
         default=1.0,
@@ -676,9 +675,6 @@ def main():
         pad_to_multiple_of=8 if training_args.fp16 else None,
     )
 
-    # Metric
-    metric = evaluate.load("rouge")
-
     def postprocess_text(preds, labels):
         pred_list, label_list = [], []
         for pred, label in zip(preds, labels):
@@ -694,6 +690,7 @@ def main():
         return preds, labels
 
     def compute_metrics(eval_preds):
+        from tw_rouge import get_rouge
         preds, labels = eval_preds
         if isinstance(preds, tuple):
             preds = preds[0]
@@ -705,14 +702,11 @@ def main():
 
         # Some simple post-processing
         decoded_preds, decoded_labels = postprocess_text(decoded_preds, decoded_labels)
-
-        # result = metric.compute(predictions=decoded_preds, references=decoded_labels, use_stemmer=True)
-        # result = {k: round(v * 100, 4) for k, v in result.items()}
-
         result = get_rouge(decoded_preds, decoded_labels)
         result = {k: round(v['f'] * 100, 4) for k, v in result.items()}
         prediction_lens = [np.count_nonzero(pred != tokenizer.pad_token_id) for pred in preds]
         result["gen_len"] = np.mean(prediction_lens)
+        
         return result
 
     # Override the decoding parameters of Seq2SeqTrainer
@@ -744,7 +738,7 @@ def main():
         eval_dataset=eval_dataset if training_args.do_eval else None,
         tokenizer=tokenizer,
         data_collator=data_collator,
-        compute_metrics=compute_metrics if training_args.predict_with_generate else None,
+        compute_metrics=compute_metrics if training_args.predict_with_generate and not training_args.do_predict else None,
         gen_kwargs=generation_config,
     )
 
@@ -789,14 +783,9 @@ def main():
         logger.info("*** Predict ***")
 
         predict_results = trainer.predict(predict_dataset, metric_key_prefix="predict")
-        metrics = predict_results.metrics
         max_predict_samples = (
             data_args.max_predict_samples if data_args.max_predict_samples is not None else len(predict_dataset)
         )
-        metrics["predict_samples"] = min(max_predict_samples, len(predict_dataset))
-        print(metrics)
-        trainer.log_metrics("predict", metrics)
-        trainer.save_metrics("predict", metrics)
 
         if trainer.is_world_process_zero():
             if training_args.predict_with_generate:
